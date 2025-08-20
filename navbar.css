@@ -19,16 +19,29 @@
     padding-left: 10px;
 }
 .navbar{
-    background-color: rgb(208, 249, 249);
+    background-color: #eee8ff;
     display: flex;
     padding: 10px 20px 10px 20px;
     align-items: center;
     border-radius: 30px;
 }
+.navbar li:hover{
+    background-color:#513A9D ;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
  .mylogo img{
     width: 60px;
     height: 50px;
  }
+ .mylogo:hover img {
+    transform: scale(1.1);  
+    transition: 0.3s;
+}
+
  .navbar li{
     text-decoration: none;
     padding: 10px;
