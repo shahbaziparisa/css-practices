@@ -6,6 +6,8 @@
     display: flex;
     justify-content:center ;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .logoPart
 {
@@ -21,14 +23,18 @@
 .navbar{
     background-color: #eee8ff;
     display: flex;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 30px 10px 30px;
     align-items: center;
-    border-radius: 30px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80vw;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .navbar li:hover{
     background-color:#513A9D ;
     color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;
     
@@ -50,4 +56,28 @@
     display: flex;
    list-style-type: none;
  }
+
+body{
+background-color: #c1b5d5;
+}
+.main{
+    display: flex;
+    padding: 50px 50px 0 50px;
+
+}
+aside{
+    margin-right: 15px;
+    width: 25%;
+}
+main{
+    width: 75%;
+
+}
+aside ,main{
+    background-color: azure;
+    padding: 20px;
+    height:300px;
+    box-shadow: 0 4px 4px 0 rgba(57, 25, 75, 0.2);
+    border-radius: 15px;
+}
  
