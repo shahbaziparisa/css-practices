@@ -13,25 +13,35 @@
     color: #513A9D;
 }
 .cards-container{
-    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 10px;
     width: calc(100% - 100px);
     margin: 15px auto;
 }
 .card{
+ 
     padding: 20px;
-    background-color: #2B1F79;
+    background :linear-gradient(20deg, #3F2B96 0%, #A8C0FF 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(57, 25, 75, 0.2);
     
 }
 
 .card-content{
     color: #eee8ff;
+    padding-top: 20px;
 }
 .card-img{
     width: 140px;
     height: 140px;
+    margin: 20px;
 }
 .icon-img{
-    color: rgb(148, 149, 164);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
 }
 .logoPart
 {
@@ -43,6 +53,16 @@
 .logoPart h1{
     font-size: 15px;
     padding-left: 10px;
+}
+.prelastcard{
+    background :linear-gradient(20deg, #2a215a 0%, #11141b 100%);
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.forthcard{
+    background :linear-gradient(20deg, #2a215a 0%, #11141b 100%);
+
 }
 .navbar{
     background-color: #eee8ff;
@@ -81,7 +101,7 @@
  }
 
 body{
-background-color: #c1b5d5;
+background-color: #dce4fa;
 }
 .main{
     display: flex;
