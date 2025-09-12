@@ -62,7 +62,7 @@ background-color: #c1b5d5;
 }
 .main{
     display: flex;
-    padding: 50px 50px 0 50px;
+    padding: 50px ;
 
 }
 aside{
@@ -79,5 +79,8 @@ aside ,main{
     height:300px;
     box-shadow: 0 4px 4px 0 rgba(57, 25, 75, 0.2);
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  
