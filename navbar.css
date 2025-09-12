@@ -5,9 +5,33 @@
 .header{
     display: flex;
     justify-content:center ;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: calc(100% - 100px);
+    margin: 10px auto;
+}
+.mainP{
+    font-family:monospace;
+    color: #513A9D;
+}
+.cards-container{
+    background-color: aquamarine;
+    width: calc(100% - 100px);
+    margin: 15px auto;
+}
+.card{
+    padding: 20px;
+    background-color: #2B1F79;
+    
+}
+
+.card-content{
+    color: #eee8ff;
+}
+.card-img{
+    width: 140px;
+    height: 140px;
+}
+.icon-img{
+    color: rgb(148, 149, 164);
 }
 .logoPart
 {
@@ -27,9 +51,8 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
-    width: 80vw;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 100%;
+
 }
 .navbar li:hover{
     background-color:#513A9D ;
@@ -62,7 +85,7 @@ background-color: #c1b5d5;
 }
 .main{
     display: flex;
-    padding: 50px ;
+    padding: 10px 50px  ;
 
 }
 aside{
@@ -83,4 +106,5 @@ aside ,main{
     align-items: center;
     justify-content: center;
 }
+
  
