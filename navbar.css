@@ -29,6 +29,10 @@
     box-shadow: 0 4px 4px 0 rgba(57, 25, 75, 0.2);
     
 }
+.card:hover{
+    background :linear-gradient(20deg, #2a215a 0%, #11141b 100%);
+
+}
 
 .card-content{
     color: #eee8ff;
@@ -60,6 +64,15 @@
     grid-column-end: 4;
 
 }
+.prelastcard:hover{
+    background :linear-gradient(20deg, #3F2B96 0%, #A8C0FF 100%);
+   
+}
+.forthcard:hover{
+    background :linear-gradient(20deg, #3F2B96 0%, #A8C0FF 100%);
+   
+}
+
 .forthcard{
     background :linear-gradient(20deg, #2a215a 0%, #11141b 100%);
 
