@@ -1,6 +1,6 @@
 # css-practices
 
-![Project Preview](./images/readme1.png)
+![Project Preview](./images/00.png)
 
 Hello! 👋  
 
