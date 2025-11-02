@@ -105,14 +105,37 @@
     .hamburger-menu i{
         font-size: 2rem;
         color: white;
-    }
-    .mainP{
+     }
+   .mainP{
         font-family:monospace;
-        color: #ffffff;
+        color: #170b0b;
          display: -webkit-box;
         -webkit-line-clamp: 6;     
        -webkit-box-orient: vertical; 
         overflow: hidden;
+    }
+    .main{
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: #f7edeb;
+        padding: 0px;
+
+
+    } 
+    aside{
+        margin-right: 0px;
+        background-color: rgb(84, 84, 228);
+        padding: 0px;
+        height:300px;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        margin-bottom: 15px;
+        height: 500px;
+        background-color: rgb(224, 29, 165);
+        padding: 0;
+    
     }
     
 }
