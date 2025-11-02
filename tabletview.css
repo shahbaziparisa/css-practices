@@ -1,0 +1,18 @@
+main{
+    width: 75%;
+
+}
+aside{
+    width: 25%;
+}
+aside ,main{
+    background-color: rgb(149, 67, 143);
+    padding: 10px;
+    height:100px;
+    box-shadow: 0 4px 4px 0 rgba(57, 25, 75, 0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
