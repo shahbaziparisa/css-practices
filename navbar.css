@@ -87,6 +87,24 @@
     width: 100%;
 
 }
+/*  0 - 480 px */
+@media(max-width : 480px){
+    .navbar{
+        background-color: #4c28af;
+        border-radius: 2px;
+
+
+    }
+}
+@media(min-width : 481px) and  (max-width : 768px  ){
+    .navbar{
+        background-color: #dac912;
+        border-radius: 2px;
+
+
+    }
+}
+
 .navbar li:hover{
     background-color:#513A9D ;
     color: white;
