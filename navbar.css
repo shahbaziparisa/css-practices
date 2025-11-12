@@ -225,5 +225,16 @@ aside ,main{
     align-items: center;
     justify-content: center;
 }
+.filter{
+    padding: 10px 50px  ;
+    /* filter:brightness(10%); */
+    /* filter: contrast(70%); */
+    filter: blur(5px);
+}
+.filter:hover{
+    filter: blur(0px);
+    filter: saturate(200%);
+    filter: drop-shadow(10px 10px 20px rgb(102, 71, 71));
 
+}
  
