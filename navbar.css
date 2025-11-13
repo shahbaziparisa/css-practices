@@ -10,7 +10,7 @@
 }
 .mainP{
     font-family:monospace;
-    color: #513A9D;
+    /* color: #513A9D; */
 }
 .cards-container{
     justify-content: center;
@@ -205,7 +205,11 @@ background-color: #dce4fa;
 .main{
     display: flex;
     padding: 10px 50px  ;
+    --text-color:black
 
+}
+p{
+    color: var(--text-color);
 }
 aside{
     margin-right: 15px;
