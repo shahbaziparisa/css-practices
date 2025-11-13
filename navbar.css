@@ -205,8 +205,11 @@ background-color: #dce4fa;
 .main{
     display: flex;
     padding: 10px 50px  ;
-    --text-color:black
+    /* --text-color: #660b77 */
 
+}
+:root{
+    --text-color: #660b77
 }
 p{
     color: var(--text-color);
